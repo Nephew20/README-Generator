@@ -34,13 +34,21 @@ function init() {
         },
         {
             type: 'input',
+            message: 'Provide instructions and examples for use:',
+            name: 'usage'
+        },
+
+        // License questions here
+        
+        {
+            type: 'input',
             message: 'Any Contribution guidelines?',
             name: 'contributions'
         },
         {
             type: 'input',
             message: 'Any testing instructions?',
-            name: 'instructions'
+            name: 'tests'
         },
         {
             type: 'input',
@@ -53,6 +61,9 @@ function init() {
             name: 'email'
         }
     ]).then((answers) => {
+        if (answers == 'undefined') {
+            answers = ' '
+        }
        writeToFile('README.md', generateMarkdown(answers))
     })
 }
