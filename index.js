@@ -35,9 +35,10 @@ function init() {
         },
 
         {
-            type: 'input',
-            message: 'Choose a license:',
-            name: 'license'
+            type: 'list',
+            message: 'Select one of these licenses if they were used, if not select N/A',
+            name: 'license',
+            choices: ['MIT', 'ISC', 'Zlib', 'N/A']
         },
         {
             type: 'input',
@@ -64,6 +65,7 @@ function init() {
             answers = ' '
         }
        writeToFile('README.md', generateMarkdown(answers))
+
     })
 }
 

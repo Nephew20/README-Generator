@@ -1,6 +1,6 @@
 # 
 
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
+  ![License](https://img.shields.io/badge/License-MIT-brightgreen)
   
 ## Description
   
@@ -23,7 +23,9 @@
   
 
   ## License
+ Click on the link to learn more aboutMIT
 
+  https://opensource.org/licenses/MIT
    
 
   ## Contributions 
