@@ -1,6 +1,17 @@
+// const License = require('github-licenses');
+//const gitLicense = require('github-licenses');
+//console.log(License.MIT)
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+
+function renderLicenseBadge(license) {
+  if (license == 'undefined') {
+    return license = ' '
+  } else {
+    return  '![License](https://img.shields.io/badge/License-'+ license + '-brightgreen)'
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -14,17 +25,19 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Description
+${renderLicenseBadge(data.license)}
+  
+## Description
   
   ${data.description}
 
   ## Table of Contents 
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Contributions](#contributions)
-  [Tests](#tests)
-  [Questions](#questions)
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [License](#license)
+   - [Contributions](#contributions)
+   - [Tests](#tests)
+   - [Questions](#questions)
 
   ## Installation
   
@@ -36,7 +49,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.license}
+   
 
   ## Contributions 
 
