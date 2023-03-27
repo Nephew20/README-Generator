@@ -17,28 +17,28 @@ function init() {
     inquirer.prompt([
         {
             type: 'input',
-            message: 'What is the title?',
+            message: 'What is the title of the project?',
             name: 'title'
         },
         {
            type: 'input',
-           message: 'Give a description of the project:',
+           message: 'Give a brief description of the project:',
            name: 'description'
         },
         {
             type: 'input',
-            message: 'What are the steps to install the project?',
+            message: 'What are the steps to install the project? Provide a step-by-step description.',
             name: 'installation'
         },
         {
             type: 'input',
-            message: 'Provide instructions and examples for use:',
+            message: 'Provide instructions and examples on how to properly use what is being developed:',
             name: 'usage'
         },
 
         {
             type: 'list',
-            message: 'Select one of these licenses if they were used, if not select N/A',
+            message: 'Select one of these licenses if they were used. (If no license was used select N/A)',
             name: 'license',
             choices: ['MIT', 'ISC', 'Zlib', 'N/A']
         },
