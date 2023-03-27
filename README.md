@@ -9,7 +9,6 @@
   ## Table of Contents 
    - [Installation](#installation)
    - [Usage](#usage)
-   - [License](#license)
    - [Contributions](#contributions)
    - [Tests](#tests)
    - [Questions](#questions)
@@ -23,7 +22,7 @@
   
 
   ## License
- Click on the link to learn more aboutMIT
+ Click on the link to learn more about the MIT license
 
   https://opensource.org/licenses/MIT
    
@@ -41,3 +40,4 @@
   [](https://github.com/?tab=repositories)
 
   
+  For any future questions you can contact me at my email: 

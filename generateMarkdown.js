@@ -1,10 +1,4 @@
-// const License = require('github-licenses');
-//const gitLicense = require('github-licenses');
-//console.log(License.MIT)
-
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-
+// function that generates the license badge 
 function renderLicenseBadge(license) {
   if (license == 'N/A') {
     return ' '
@@ -13,8 +7,8 @@ function renderLicenseBadge(license) {
     return '![License](https://img.shields.io/badge/License-'+ license + '-brightgreen)'
   }
 }
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+
+// function to generate the link to the licenses 
 function renderLicenseLink(license) {
   if (license == 'N/A') {
     return ' '
@@ -24,18 +18,17 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+//function to generate the entire license section
 function renderLicenseSection(license) {
   if (license == 'N/A') {
     return ' '
   }
   else {
-    return '## License\n Click on the link to learn more about ' + license
+    return '## License\n Click on the link to learn more about the ' + license +' license'
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//generates the skeleton readme that takes in user input 
 function generateMarkdown(data) {
   return `# ${data.title}
 
