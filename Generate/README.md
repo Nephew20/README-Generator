@@ -1,10 +1,10 @@
-# some
+# README Generator
 
   ![License](https://img.shields.io/badge/License-MIT-brightgreen)
   
 ## Description
   
-  this a project that generates a readme function 
+  generates a README
 
   ## Table of Contents 
    - [Installation](#installation)
@@ -15,11 +15,13 @@
 
   ## Installation
   
-  provide a git clone\n\n other stuff
+  git clone cd ../to/your/file/path
 
   ## Usage 
 
-  a
+  install node and then do npm install inquirer
+
+  https://drive.google.com/file/d/13wqAe3KViCyiUaqaD5MdzFfHc_la-Ay1/view
 
   ## License
  Click on the link to learn more about the MIT license
@@ -29,15 +31,15 @@
 
   ## Contributions 
 
-  afadfaf
+  industry standard
 
   ## Tests
 
-  
+  none
 
   ## Questions
 
-  [](https://github.com/?tab=repositories)
+  [Nephew20](https://github.com/Nephew20?tab=repositories)
 
   
-  For any future questions you can contact me at my email: 
+  For any future questions you can contact me at my email: cofieldk20@gmail.com
