@@ -1,10 +1,10 @@
-# stuff
+# some
 
-  ![License](https://img.shields.io/badge/License-ISC-brightgreen)
+  ![License](https://img.shields.io/badge/License-MIT-brightgreen)
   
 ## Description
   
-  doing stuff for my project
+  this a project that generates a readme function 
 
   ## Table of Contents 
    - [Installation](#installation)
@@ -15,29 +15,29 @@
 
   ## Installation
   
-  do a git clone of the repo\n cd ../path/to/file\n npm install\n npm start
+  provide a git clone\n\n other stuff
 
   ## Usage 
 
-  1. Download the npm\n 2.Do other stuff
+  a
 
   ## License
- Click on the link to learn more about the ISC license
+ Click on the link to learn more about the MIT license
 
-  https://opensource.org/licenses/ISC
+  https://opensource.org/licenses/MIT
    
 
   ## Contributions 
 
-  do the default
+  afadfaf
 
   ## Tests
 
-  nope
+  
 
   ## Questions
 
-  [Nephew20](https://github.com/Nephew20?tab=repositories)
+  [](https://github.com/?tab=repositories)
 
   
-  For any future questions you can contact me at my email: cofieldk20@gmail.com
+  For any future questions you can contact me at my email: 

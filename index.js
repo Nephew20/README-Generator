@@ -27,7 +27,7 @@ function init() {
         },
         {
             type: 'input',
-            message: 'What are the steps to install the project? Provide a step-by-step description.',
+            message: 'What are the steps to install the project? Provide a step-by-step description:',
             name: 'installation'
         },
         {
@@ -44,12 +44,12 @@ function init() {
         },
         {
             type: 'input',
-            message: 'Any Contribution guidelines?',
+            message: 'Provide any contribution guidelines:',
             name: 'contributions'
         },
         {
             type: 'input',
-            message: 'Any testing instructions?',
+            message: 'Provide any testing instructions:',
             name: 'tests'
         },
         {
