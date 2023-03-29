@@ -67,7 +67,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  [${data.username}](https://github.com/${data.username}?tab=repositories)\n
+  Github Repo: [${data.username}](https://github.com/${data.username}?tab=repositories)\n
   
   For any future questions you can contact me at my email: ${data.email}
 `;
